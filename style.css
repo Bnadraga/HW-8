@@ -2,10 +2,10 @@
 #greycol{
     color: grey;
 }
-h3:first-child{
+.text-box h3:first-child{
     color: pink;
 }
-div > div > p{
+.text-box > div > p{
     color: red;
 }
 .yellow{
@@ -18,16 +18,39 @@ p:nth-child(2){
     color: #000;
 }
 /* Завдання №2 */
-td, th{
-    border: 2px solid black;
-    padding: 10px;;
+ul{
+    list-style: none;
 }
 .list{
-    color: green;
+    display: flex;
 }
-.title{
-    color: rgb(255, 0, 0);
+.hover-link:hover{
+    color: yellowgreen;
 }
-tbody{
-    background-color: rgb(138, 138, 213);
+.focus-link:focus{
+    background-color: blue;
+}
+.visited-link:visited{
+    color: aqua;
+}
+.link:link{
+    background-color: green;
+}
+.active-link:active{
+    background-color: black;
+}
+.tuesday li:last-child{
+    background-color: rgb(34, 178, 36);
+}
+.wednesday li:nth-child(odd){
+    color: rgb(145, 213, 0);
+}
+.wednesday li:nth-child(event){
+    color: aquamarine;
+}
+.thursday li:nth-child(-n + 2){
+    color: rgb(215, 118, 118);
+}
+.friday li:nth-child(3n + 1){
+    background-color: tomato;
 }
